@@ -1,0 +1,30 @@
+.image-item {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-title {
+    text-align: center;
+    text-transform: capitalize;
+    width: 10rem;
+    margin-top: 1.5rem;
+}
+
+.image-element {
+    width: 350px;
+    margin: .5rem 0;
+    border: 1px solid var(--borderColor);
+}
+
+.image-input {
+    width: 65%;
+    margin: .2rem auto;
+    border: 1px solid var(--dark);
+    background: rgba(var(--darkValues), 0.3);
+    color: var(--light);
+    padding: .2rem;
+}

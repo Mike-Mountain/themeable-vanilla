@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Theming</title>
+  <link type="text/css" rel="stylesheet" href="/styles/color-settings.css">
+  <link type="text/css" rel="stylesheet" href="/styles/image-settings.css">
+  <link type="text/css" rel="stylesheet" href="/styles/navigation.css">
+  <link type="text/css" rel="stylesheet" href="/styles/tabs.css">
+  <link type="text/css" rel="stylesheet" href="/styles/utils.css">
+  <link type="text/css" rel="stylesheet" href="/styles/variables.css">
+  <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="header-top">
+    <a class="logo" href="">
+    </a>
+    <nav class="navigation">
+      <a class="nav-item" href="">
+        Home
+      </a>
+      <a class="nav-item" href="">
+        Test
+      </a>
+      <a class="nav-item" href="">
+        About
+      </a>
+    </nav>
+  </div>
+</header>
+<main class="content">
+  <div class="settings-container">
+    <h2>Settings</h2>
+    <div class="tabs" id="tabs-container">
+      <button class="tab active-tab" id="tab-variables">Colors</button>
+      <button class="tab" id="tab-images">Images</button>
+      <button class="tab" id="tab-text">Text</button>
+    </div>
+    <div class="panels" id="panels-container">
+      <div id="variables" class="variables panel">
+        <div class="panel-title">
+          <h2>Theme Colors</h2>
+        </div>
+      </div>
+      <div id="images" class="images panel">
+        <div class="panel-title">
+          <h2>Images</h2>
+        </div>
+      </div>
+      <div id="text" class="text panel">
+        <div class="panel-title">
+          <h2>Text</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="main.js" type="module"></script>
+<script src="components/tabs.js" type="module"></script>
+</body>
+</html>

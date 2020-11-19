@@ -1,0 +1,18 @@
+.color-picker {
+    margin: 0.5rem 0 0 auto;
+    width: 50%;
+}
+
+.variable-item {
+    width: 95%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.variable-title {
+    text-transform: capitalize;
+    width: 4rem;
+}

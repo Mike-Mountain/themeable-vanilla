@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background: var(--backgroundImage) top/cover no-repeat;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: calc(100% - 3.6rem);
+    overflow: auto;
+}
+
+.settings-container {
+    margin: 0.5rem auto;
+    width: 75%;
+    border: 1px solid var(--borderColor);
+    background-color: var(--cardBg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

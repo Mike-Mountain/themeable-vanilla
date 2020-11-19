@@ -1,0 +1,39 @@
+:root {
+    /*//__COLORS__//*/
+    --light: rgb(255, 255, 255);
+    --lightValues: 255, 255, 255;
+
+    --dark: rgb(0, 0, 0);
+    --darkValues: 0, 0, 0;
+
+    --primary: rgb(183, 50, 45);
+    --primaryValues: 183, 50, 45;
+
+    --accent: rgb(253, 137, 58);
+    --accentValues: 253, 137, 58;
+
+    /*//__Images__//*/
+    --backgroundImage: url("https://preview.redd.it/oczmulqq8xs51.jpg?width=1598&format=pjpg&auto=webp&s=f46b9c930b5cc26945635c49a68e0d44704fd171");
+    --logoImage: url("https://assets-prd.ignimgs.com/2020/06/11/screenshot-20-1591906521921.png");
+
+    /*//__Assignment__//*/
+    --cardBg: rgba(var(--lightValues), 0.6);
+    --navItemHoverBg: rgba(var(--accentValues), 0.8);
+    --textColor: var(--dark);
+    --borderColor: var(--light);
+    --mainBg: var(--dark);
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button {
+    color: var(--textColor);
+    margin: 0;
+}
